@@ -1,6 +1,6 @@
 html {
     box-shadow: inset 0px 0px 15px 15px rgba(0, 0, 0, 0.301);
-    bottom: 0;
+    height: 100%;
 }
 
 body {
