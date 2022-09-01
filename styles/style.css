@@ -1,10 +1,17 @@
 html {
-    box-shadow: inset 0px 0px 15px 15px rgba(0, 0, 0, 0.301);
     height: 100%;
 }
 
 body {
-    background-color: rgb(67, 113, 165);
+    background-color: #4371a5;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #4371a5, rgba(0, 0, 0, 0.411));
+    width: 100%;
+    margin-bottom: 0;
+
 }
 
 header h1 {
@@ -25,11 +32,74 @@ header p {
     margin: 0;
 }
 
+nav {
+    background-image: linear-gradient(to top, #4371a5, rgba(0, 0, 0, 0.411));
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 0px;
+    height: 40px;
+    border-radius: 0 0 10px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    margin: auto;
+    padding-right: 15px;
+    padding-left: 10px;
+    text-align: center;
+}
+
 main {
+    max-width: 900px;
+    max-height: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 900px;
+}
+
+
+.main {
     background-color: antiquewhite;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.342);
     margin: auto;
-    max-width: 800px;
-    height: 600px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-right: 10px;
+    width: 690px;
+    height: 800px;
     border-radius: 10px;
+}
+
+.main > h1 {
+    font-size: 2em;
+    padding: 10px;
+    padding-top: 0;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.side {
+    background-color: antiquewhite;
+    width: 200px;
+    height: 800px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.side > h2 {
+    font-size: 1.4em;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    padding-top: 0;
 }
